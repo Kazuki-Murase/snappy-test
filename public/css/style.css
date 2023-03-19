@@ -1,0 +1,85 @@
+body {
+    font-family: "ＭＳ Ｐゴシック";
+}
+
+@page {
+    size: A4 portrait;
+    margin: 0mm;
+}
+
+.logo {
+    height: 0.86cm;
+    width: 2.57cm;
+}
+
+.h1 {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.h2 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 11pt;
+}
+
+.h4 {
+    font-size: 9pt;
+}
+
+.h5 {
+    font-size: 8pt;
+}
+
+.table {
+    display: flex;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table tr {
+    height: 15pt;
+}
+
+th, td {
+    border:0;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+}
+
+.center {
+    text-align: center;
+}
+
+.border tr,.border td {
+    border : 1px black solid;
+}
+
+.top {
+    border-top: 1px black solid;
+}
+
+.bottom {
+    border-bottom: 1px black solid;
+}
+
+.left {
+    border-left: 1px black solid;
+}
+
+.right {
+    border-right: 1px black solid;
+}
+
+.neer {
+    border: 1px black solid;
+}
